@@ -74,7 +74,7 @@ client.on('interactionCreate', async interaction => {
 
             await interaction.editReply({
                 embeds: [{
-                    title: '🎮 Funniewars Server Status',
+                    title: '🎮 Minecraft Server Status',
                     fields: [
                         {
                             name: 'Server',
