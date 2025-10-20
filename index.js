@@ -21,7 +21,7 @@ async function checkServer() {
         if (!channel) return;
 
         if (playerCount >= 20 && !miniOngoing) {
-            await channel.send('@Funniewars MINI ANNOUNCEMENT Join up Now!');
+            await channel.send('@everyone There\'s a mini ongoing!');
             miniOngoing = true;
         } else if (playerCount < 20 && miniOngoing) {
             await channel.send('The mini has ended!');
